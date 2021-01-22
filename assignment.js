@@ -1,6 +1,7 @@
 //https://github.com/AhanafVai/assignment.js
 
 
+///      kilometerToMeter         ///
  function kilometerToMeter( distance ) {
     var meter = distance * 1000;
     return meter;
@@ -9,6 +10,7 @@ var convert = kilometerToMeter(34);
 console.log(convert);
 
 
+///             budgetCalculator          ///
  function budgetCalculator(clock, phone, laptop){
     const clockCost = clock * 50;
     const phoneCost = phone * 100;
@@ -21,7 +23,7 @@ console.log(convert);
  console.log(sum);
 
 
-
+///     hotelCost    ///
 function hotelCost(day){
     var cost = 0;
     if(day < 11){
@@ -45,6 +47,8 @@ function hotelCost(day){
 var bill = hotelCost(30);
 console.log(bill);
 
+
+///                   megaFriend                     ///
  function megaFriend(arr =["rafi","rafina","rokksana"]) {
     let word = "";
     for (let i = 0; i < arr.length; i++) {
