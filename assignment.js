@@ -1,27 +1,21 @@
-//1. function kilometerToMeter( distance ) {
+//  function kilometerToMeter( distance ) {
 //     var meter = distance * 1000;
 //     return meter;
 // }
-// var result = kilometerToMeter("please Input Distance");
+// var result = kilometerToMeter(34);
 // console.log(result);
 
-function budgetCalculator([],number){
-   var word = ["laptop","watch","mobilephone"];
-   for(i=0; i < word.length; i++){
-   if(word.length === 5){
-     cost = number * 50;
-   }
-   else if(word.length === 11){
-       cost = number * 100;
-   }
-   else if(word.length === 6){
-       cost = number * 500;
-   }
- }
- return cost;
+
+function woodCalculator(clock, phone, laptop){
+    const clockCost = clock * 50;
+    const phoneCost = phone * 100;
+    const laptopCost = laptop * 500;
+    
+    let totalcost = clockCost+phoneCost+laptopCost;
+    return totalcost; 
 }
-var result = budgetCalculator([laptop],5);
-console.log(result);
+ let result= woodCalculator(2,2,2)
+ console.log(result);
 
 
 
